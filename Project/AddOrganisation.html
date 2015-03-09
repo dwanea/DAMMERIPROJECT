@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Dammeri</title>
+	<link rel="icon" href="images/icon.jpg"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/navbar.css" rel="stylesheet"/>
+	<script src="js/ie-emulation-modes-warning.js"></script>
+	<script type="text/javascript" scr="js/jquery.js" ></script>
+	<script type="text/javascript" scr="js/bootstrap.js" ></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-wrapper">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Dammeri</a>
+    		</div>
+    		<div>
+      			<ul class="nav navbar-nav">
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Organisations<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="AddOrganisation.html">Add Organisation</a></li>
+        					<li><a href="#">View Organisations</a></li>
+        				</ul>
+        			</li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Members<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="AddMember.html">Add Member</a></li>
+            				<li><a href="#">View Members</a></li>
+         				</ul>
+        			</li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Add Project</a></li>
+        					<li><a href="#">View Projects</a></li>
+        					<li><a href="#">Modify Project</a></li>
+        				</ul>
+        			</li> 
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Options<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Log out</a></li>
+        					<li><a href="#">General Account Settings</a></li>
+        				</ul>
+        			</li> 
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+	
+	
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Add Organisation</h2><br/>
+			<fieldset>
+				<legend><h3>Organisation Details</h3></legend>
+				<form action="">	
+					<table>
+						<tr><td>Organisation Name: </td><td><input type="text" placeholder = "Organisation Name" size="30" /></td></tr>
+						<tr><td></br><td></tr>
+						<tr><td>Headquarters Address: </td><td><input type="text" placeholder = "Street Address" size="30" /></td></tr>
+						<tr><td></br><td></tr>
+						<tr><td>City:</td>
+							<td>
+							<select>
+								 <option value='' >Select</option>
+								 <option value='Ar' >Arima</option>
+								 <option value='Aro' >Arouca</option>
+								 <option value='Bara' >Barataria</option>
+								 <option value='Barra' >Barrackpore</option>
+								 <option value='Beet' >Beetham Gardens</option>
+								 <option value='Cha' >Chaguanas</option>
+								 <option value='Chagur' >Chaguramas</option>
+								 <option value='Cou' >Couva</option>
+								 <option value='Cur' >Curepe</option>
+								 <option value='D' >D'Abadie</option>
+								 <option value='Deig' >Deigo Martin</option>
+								 <option value='Glen' >Glencoe</option>
+								 <option value='La' >La Horquetta</option>
+								 <option value='Lav' >Laventille</option>
+								 <option value='Mara' >Marabella</option>
+								 <option value='Mov' >Morvant</option>
+								 <option value='Mucu' >Mucurapo</option>
+								 <option value='Pen' >Penal</option>
+								 <option value='Point' >Port Fortin</option>
+								 <option value='POS' >Port of Spain</option>
+								 <option value='Princess' >Princess Town</option>
+								 <option value='San' >San Juan</option>
+								 <option value='SanF' >San Fernando</option>
+								 <option value='Sang' >Sangre Grande</option>
+								 <option value='Scar' >Scarborough</option>
+								 <option value='Sip' >Siparia</option>
+								 <option value='St' >St. James</option>
+								 <option value='Tuna' >Tunapuna</option>
+								 <option value='Oth' >Other</option>
+							</select>
+							</td>
+						</tr>
+						<tr><td></br><td></tr>
+						<tr><td>Type:</td>
+							<td>
+							<select>
+								<option value="">Select</option>
+								<option value="L">Local</option>
+								<option value="R">Regional</option>
+								<option value="I">International</option>
+							</select>
+							</td>
+						</tr>
+						<tr><td></br><td></tr>
+						<tr><td></br><td></tr>
+						<tr><td><input id ="organisation" type=button value="Clear" onClick="self.location='AddOrganisation.html'"></td><td><input id ="organisation" type=button value="Finish" onClick="self.location='#'"></td></tr>			
+						<tr><td></br><td></tr>
+					</table>
+				   </form>
+				  </fieldset>
+		</div>
+	</div>	
+	
+	
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>	
+		
+</body>
+
+</html>

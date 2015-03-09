@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Dammeri</title>
+	<link rel="icon" href="images/icon.jpg"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/navbar.css" rel="stylesheet"/>
+	<script src="js/ie-emulation-modes-warning.js"></script>
+	<script type="text/javascript" scr="js/jquery.js" ></script>
+	<script type="text/javascript" scr="js/bootstrap.js" ></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-wrapper">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Dammeri</a>
+    		</div>
+    		<div>
+      			<ul class="nav navbar-nav">
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Organisations<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="AddOrganisation.html">Add Organisation</a></li>
+        					<li><a href="#">View Organisations</a></li>
+        				</ul>
+        			</li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Members<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="#">Add Member</a></li>
+            				<li><a href="#">View Members</a></li>
+         				</ul>
+        			</li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Add Project</a></li>
+        					<li><a href="#">View Projects</a></li>
+        					<li><a href="#">Modify Project</a></li>
+        				</ul>
+        			</li> 
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Options<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+        					<li><a href="#">Log out</a></li>
+        					<li><a href="#">General Account Settings</a></li>
+        				</ul>
+        			</li> 
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+	
+	
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Add Member</h2><br/>
+			<form role="form" class="form-horizontal">
+				<div class="form-group">
+					<label for="firstname">First Name</label>
+					<input type="text" class="form-control" placeholder="Enter First Name" id="firstname"/>
+				</div>
+				<div class="form-group">
+					<label for="lastname">Last Name</label>
+					<input type="text" class="form-control" placeholder="Enter Last Name" id="lastname"/>
+				</div>
+				<div class="form-group">
+					<label for="age" class="active left">Age</label>
+					<input type="text" class="form-control" placeholder="Enter Age" id="age"/>
+				</div>
+				<div class="form-group">
+					<label for="sex">Sex</label>
+					<div class="checkbox">
+						<label><input type="checkbox" value="Male" placeholder="Male" id="sex"/>Male</label>
+						<label><input type="checkbox" value="Female" placeholder="Female" id="sex"/>Female</label>
+					</div>
+				</div>		
+			</form>
+		</div>
+	</div>	
+	
+	
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>	
+		
+</body>
+
+</html>
